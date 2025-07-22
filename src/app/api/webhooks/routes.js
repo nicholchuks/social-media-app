@@ -66,7 +66,7 @@ export async function POST(req) {
         last_name,
         image_url,
         email_addresses,
-        usernam
+        username
       );
       if (user && eventType === "user.created") {
         try {
@@ -101,3 +101,4 @@ export async function POST(req) {
 
   return new Response("", { status: 200 });
 }
+// For reference
