@@ -8,6 +8,8 @@ import {
   SignOutButton,
 } from "@clerk/nextjs";
 
+// wsxJs1THIum4XaGh;
+
 // import MiniProfile from "./MiniProfile";
 
 export default function Sidebar() {
